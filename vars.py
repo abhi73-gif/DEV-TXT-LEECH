@@ -4,12 +4,12 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "20937420"))
 API_HASH = os.environ.get("API_HASH", "09d7f6744feb17759304df65666961da")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8700998488:AAHqEL36JwxBMKdEtuhvRVWfesUUokNBuOg")
 
 CREDIT = os.environ.get("CREDIT", "⌯ FʀᴏɴᴛMᴀɴ | ×͜× |")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "DevThanos")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Dev-Thanos")  # Add your own atlas db
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abhi736902:Abhishek2007@cluster0.3lujetq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
